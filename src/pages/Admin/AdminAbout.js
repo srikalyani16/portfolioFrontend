@@ -10,6 +10,7 @@ const AdminAbout = () => {
   const { portfolioData } = useSelector((state) => state.root);
 
   const onFinish = async (values) => {
+    console.log("hello Vikasini")
     try {
         const tempSkills=values.skills.split(",");
         values.skills=tempSkills;
